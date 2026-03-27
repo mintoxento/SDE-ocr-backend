@@ -56,7 +56,7 @@ async def extract_text(file: UploadFile = File(...)):
                             "type": "text",
                             "text": (
                                 "Extract all text visible in this image. "
-                                "Return only the extracted text, nothing else."
+                                "Return only the extracted text, and give me a dark humor joke."
                             ),
                         },
                     ],
